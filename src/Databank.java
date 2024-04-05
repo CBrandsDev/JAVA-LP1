@@ -11,10 +11,15 @@ public class Databank {
         DB[index] = p;
         index++;
     }
-
-    public void remove(Patient p) {
-        DB[index] = p;
-        index--;
+    
+    public void remove(Patient p){
+        for(int i = 0; i < index; i++){
+            if(DB[i] == p){
+                DB[i] = DB[index-1];
+                DB[index-1] = null;
+                index--;
+            }
+        }
     }
 
     public void printALL(){
