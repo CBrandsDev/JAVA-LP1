@@ -1,2 +1,2 @@
 # JAVA-LP1
- Stufies
+ Studies
