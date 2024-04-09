@@ -10,7 +10,7 @@ public class Store{
     }
 
     public void sReport() {
-        System.out.println("Store " + name + ", the seller ");
+        System.out.println("Store " + name + ", the Seller ");
         seller.sReport();
         car.cReport();
     }

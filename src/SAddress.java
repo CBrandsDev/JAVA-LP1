@@ -8,6 +8,6 @@ public class SAddress {
     }
 
     public void aReport() {
-        System.out.println("Street " + street + ", number " + number);
+        System.out.println("Street " + street + ", Number " + number);
     }
 }

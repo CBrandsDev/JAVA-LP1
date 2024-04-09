@@ -10,7 +10,7 @@ public class Sellers {
     }
 
     public void sReport() {
-        System.out.println("Seller " + name + ", " + age + " year old, address ");
+        System.out.println( name + ", " + age + " year old, Address ");
         address.aReport();
     }
 }
